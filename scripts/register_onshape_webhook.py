@@ -2,7 +2,7 @@
 """Register an Onshape webhook that re-exports this repository whenever a version is created.
 
 Used by .github/workflows/register-webhook.yml. The webhook targets the club's relay
-(webhook-relay/, URL in $RELAY_URL) with ``?repo=<this repository>``; the relay turns each
+(rice-robotics-club/onshape_webhook, URL in $RELAY_URL) with ``?repo=<this repository>``; the relay turns each
 ``onshape.model.lifecycle.createversion`` event into a repository_dispatch that runs Update URDF.
 
 Onshape doesn't de-duplicate webhooks, so only run this once per repository (re-running creates a

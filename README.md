@@ -85,8 +85,8 @@ exact version, and the resulting commit (`Update from Onshape version <name>`) i
 so CAD versions and Git tags line up. To enable it for a robot repository, fill in `config.json` and run
 **Actions → Register Onshape Webhook** once.
 
-This relies on the club's webhook relay (a Cloudflare Worker in the [template repository](https://github.com/rice-robotics-club/onshape_description)'s `webhook-relay/` folder,
-deployed once by club admins; see [its README](https://github.com/rice-robotics-club/onshape_description/blob/main/webhook-relay/README.md)) and on the
+This relies on the club's webhook relay, [onshape_webhook](https://github.com/rice-robotics-club/onshape_webhook)
+(a Cloudflare Worker deployed once by club admins; see its README for setup), and on the
 `ONSHAPE_WEBHOOK_RELAY_URL` organization variable. Webhook-triggered runs don't export MJCF; run Update URDF
 manually for that.
 

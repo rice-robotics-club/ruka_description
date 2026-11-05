@@ -9,7 +9,7 @@ on:
         default: false
         required: false
         type: boolean
-  # Sent by the Onshape webhook relay (webhook-relay/) when a new version of the document is created
+  # Sent by the Onshape webhook relay (rice-robotics-club/onshape_webhook) when a new version of the document is created
   repository_dispatch:
     types: [onshape-version]
 
