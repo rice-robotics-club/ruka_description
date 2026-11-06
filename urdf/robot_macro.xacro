@@ -12,11 +12,11 @@
       <inertial>
         <origin xyz="-0.0029519 -0.0313554 0.00805561" rpy="0 0 0" />
         <mass value="0.003" />
-        <inertia ixx="2.12608e-06" ixy="-1.33485e-08" ixz="-1.73878e-08" iyy="3.12604e-06" iyz="-5.94787e-08" izz="4.1914e-06" />
+        <inertia ixx="2.12608e-06" ixy="-1.3348e-08" ixz="-1.7388e-08" iyy="3.12604e-06" iyz="-5.9479e-08" izz="4.1914e-06" />
       </inertial>
       <!-- Part low_ball -->
       <visual>
-        <origin xyz="-0.00216402 -0.0382359 -0.00282698" rpy="1.5708 5.57513e-31 3.14159" />
+        <origin xyz="-0.00216402 -0.0382359 -0.00282698" rpy="1.5708 0 3.14159" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/low_ball.stl" />
         </geometry>
@@ -25,14 +25,14 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.00216402 -0.0382359 -0.00282698" rpy="1.5708 5.57513e-31 3.14159" />
+        <origin xyz="-0.00216402 -0.0382359 -0.00282698" rpy="1.5708 0 3.14159" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/low_ball.stl" />
         </geometry>
       </collision>
       <!-- Part base_new -->
       <visual>
-        <origin xyz="-0.00216402 -0.0382359 -0.00282698" rpy="1.5708 -9.84535e-31 3.14159" />
+        <origin xyz="-0.00216402 -0.0382359 -0.00282698" rpy="1.5708 -0 3.14159" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/base_new.stl" />
         </geometry>
@@ -41,14 +41,14 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.00216402 -0.0382359 -0.00282698" rpy="1.5708 -9.84535e-31 3.14159" />
+        <origin xyz="-0.00216402 -0.0382359 -0.00282698" rpy="1.5708 -0 3.14159" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/base_new.stl" />
         </geometry>
       </collision>
       <!-- Part bearing_plate -->
       <visual>
-        <origin xyz="-0.00216402 -0.0382359 -0.00282698" rpy="1.5708 1.99381e-30 -3.14159" />
+        <origin xyz="-0.00216402 -0.0382359 -0.00282698" rpy="1.5708 0 -3.14159" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/bearing_plate.stl" />
         </geometry>
@@ -57,7 +57,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.00216402 -0.0382359 -0.00282698" rpy="1.5708 1.99381e-30 -3.14159" />
+        <origin xyz="-0.00216402 -0.0382359 -0.00282698" rpy="1.5708 0 -3.14159" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/bearing_plate.stl" />
         </geometry>
@@ -66,9 +66,9 @@
     <!-- Link outer -->
     <link name="${tf_prefix}outer">
       <inertial>
-        <origin xyz="-6.88416e-18 0.0210334 -0.0482655" rpy="0 0 0" />
+        <origin xyz="0 0.0210334 -0.0482655" rpy="0 0 0" />
         <mass value="0.001" />
-        <inertia ixx="1.31716e-06" ixy="2.15859e-23" ixz="-1.77012e-26" iyy="1.2237e-06" iyz="-5.10439e-09" izz="1.32943e-07" />
+        <inertia ixx="1.31716e-06" ixy="0" ixz="-0" iyy="1.2237e-06" iyz="-5.104e-09" izz="1.32943e-07" />
       </inertial>
       <!-- Part outer -->
       <visual>
@@ -92,11 +92,11 @@
       <inertial>
         <origin xyz="-0.0064712 -0.0448855 -0.0432109" rpy="0 0 0" />
         <mass value="0.006" />
-        <inertia ixx="7.51801e-06" ixy="-4.28295e-07" ixz="-1.81634e-07" iyy="5.04741e-06" iyz="-2.90235e-06" izz="8.08209e-06" />
+        <inertia ixx="7.51801e-06" ixy="-4.28295e-07" ixz="-1.81634e-07" iyy="5.0474e-06" iyz="-2.90235e-06" izz="8.08209e-06" />
       </inertial>
       <!-- Part backhand -->
       <visual>
-        <origin xyz="-0.0133773 -0.0969385 -0.0690672" rpy="2.47013 -2.8021e-15 3.12628" />
+        <origin xyz="-0.0133773 -0.0969385 -0.0690672" rpy="2.47013 -0 3.12628" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/backhand.stl" />
         </geometry>
@@ -105,14 +105,14 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.0133773 -0.0969385 -0.0690672" rpy="2.47013 -2.8021e-15 3.12628" />
+        <origin xyz="-0.0133773 -0.0969385 -0.0690672" rpy="2.47013 -0 3.12628" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/backhand.stl" />
         </geometry>
       </collision>
       <!-- Part front_palm -->
       <visual>
-        <origin xyz="-0.0133773 -0.0969385 -0.0690672" rpy="2.47013 -2.7919e-15 3.12628" />
+        <origin xyz="-0.0133773 -0.0969385 -0.0690672" rpy="2.47013 -0 3.12628" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/front_palm.stl" />
         </geometry>
@@ -121,14 +121,14 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.0133773 -0.0969385 -0.0690672" rpy="2.47013 -2.7919e-15 3.12628" />
+        <origin xyz="-0.0133773 -0.0969385 -0.0690672" rpy="2.47013 -0 3.12628" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/front_palm.stl" />
         </geometry>
       </collision>
       <!-- Part part_1 -->
       <visual>
-        <origin xyz="-2.60209e-18 0 -0.025" rpy="-1.55549 1.5708 0" />
+        <origin xyz="-0 0 -0.025" rpy="-1.55549 1.5708 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/part_1.stl" />
         </geometry>
@@ -137,14 +137,14 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-2.60209e-18 0 -0.025" rpy="-1.55549 1.5708 0" />
+        <origin xyz="-0 0 -0.025" rpy="-1.55549 1.5708 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/part_1.stl" />
         </geometry>
       </collision>
       <!-- Part thumb_attachment -->
       <visual>
-        <origin xyz="-0.0133895 -0.0969771 -0.0690184" rpy="2.47013 -1.81974e-15 3.12628" />
+        <origin xyz="-0.0133895 -0.0969771 -0.0690184" rpy="2.47013 -0 3.12628" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/thumb_attachment.stl" />
         </geometry>
@@ -153,14 +153,14 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.0133895 -0.0969771 -0.0690184" rpy="2.47013 -1.81974e-15 3.12628" />
+        <origin xyz="-0.0133895 -0.0969771 -0.0690184" rpy="2.47013 -0 3.12628" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/thumb_attachment.stl" />
         </geometry>
       </collision>
       <!-- Part palm -->
       <visual>
-        <origin xyz="-0.0133895 -0.0969771 -0.0690184" rpy="2.47013 -1.86e-15 3.12628" />
+        <origin xyz="-0.0133895 -0.0969771 -0.0690184" rpy="2.47013 -0 3.12628" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/palm.stl" />
         </geometry>
@@ -169,14 +169,14 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.0133895 -0.0969771 -0.0690184" rpy="2.47013 -1.86e-15 3.12628" />
+        <origin xyz="-0.0133895 -0.0969771 -0.0690184" rpy="2.47013 -0 3.12628" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/palm.stl" />
         </geometry>
       </collision>
       <!-- Part wrist_connector_bend -->
       <visual>
-        <origin xyz="-0.0133773 -0.0969385 -0.0690672" rpy="2.47013 -2.7946e-15 3.12628" />
+        <origin xyz="-0.0133773 -0.0969385 -0.0690672" rpy="2.47013 -0 3.12628" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/wrist_connector_bend.stl" />
         </geometry>
@@ -185,7 +185,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.0133773 -0.0969385 -0.0690672" rpy="2.47013 -2.7946e-15 3.12628" />
+        <origin xyz="-0.0133773 -0.0969385 -0.0690672" rpy="2.47013 -0 3.12628" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/wrist_connector_bend.stl" />
         </geometry>
@@ -196,11 +196,11 @@
       <inertial>
         <origin xyz="-0.00174312 -0.00118773 -0.00872925" rpy="0 0 0" />
         <mass value="0.003" />
-        <inertia ixx="1.5748e-07" ixy="-2.37555e-08" ixz="-1.03937e-08" iyy="1.81283e-07" iyz="-6.78847e-09" izz="8.20582e-08" />
+        <inertia ixx="1.5748e-07" ixy="-2.3756e-08" ixz="-1.0394e-08" iyy="1.81283e-07" iyz="-6.788e-09" izz="8.2058e-08" />
       </inertial>
       <!-- Part knuclke_index_ext -->
       <visual>
-        <origin xyz="-0.0150985 0.0156947 -0.0159484" rpy="3.73229e-15 0.0436332 -1.12955" />
+        <origin xyz="-0.0150985 0.0156947 -0.0159484" rpy="0 0.0436332 -1.12955" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/knuclke_index_ext.stl" />
         </geometry>
@@ -209,14 +209,14 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.0150985 0.0156947 -0.0159484" rpy="3.73229e-15 0.0436332 -1.12955" />
+        <origin xyz="-0.0150985 0.0156947 -0.0159484" rpy="0 0.0436332 -1.12955" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/knuclke_index_ext.stl" />
         </geometry>
       </collision>
       <!-- Part cap -->
       <visual>
-        <origin xyz="0.0282277 0.00828809 -0.0148" rpy="3.14159 5.44839e-15 -2.01926" />
+        <origin xyz="0.0282277 0.00828809 -0.0148" rpy="3.14159 0 -2.01926" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/cap.stl" />
         </geometry>
@@ -225,14 +225,14 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="0.0282277 0.00828809 -0.0148" rpy="3.14159 5.44839e-15 -2.01926" />
+        <origin xyz="0.0282277 0.00828809 -0.0148" rpy="3.14159 0 -2.01926" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/cap.stl" />
         </geometry>
       </collision>
       <!-- Part cap_2 -->
       <visual>
-        <origin xyz="-0.0197075 -0.0218428 -0.002" rpy="-1.55345e-17 2.19307e-17 6.31655e-17" />
+        <origin xyz="-0.0197075 -0.0218428 -0.002" rpy="-0 0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/cap.stl" />
         </geometry>
@@ -241,7 +241,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.0197075 -0.0218428 -0.002" rpy="-1.55345e-17 2.19307e-17 6.31655e-17" />
+        <origin xyz="-0.0197075 -0.0218428 -0.002" rpy="-0 0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/cap.stl" />
         </geometry>
@@ -252,11 +252,11 @@
       <inertial>
         <origin xyz="-0.0167147 -0.00133536 0.00450002" rpy="0 0 0" />
         <mass value="0.001" />
-        <inertia ixx="4.31278e-08" ixy="-2.8728e-10" ixz="2.10316e-13" iyy="1.28608e-07" iyz="1.55801e-13" izz="1.09528e-07" />
+        <inertia ixx="4.3128e-08" ixy="-2.87e-10" ixz="0" iyy="1.28608e-07" iyz="0" izz="1.09528e-07" />
       </inertial>
       <!-- Part mcp -->
       <visual>
-        <origin xyz="-0.0455917 -0.00510811 0.0045" rpy="-1.5708 2.55953e-16 4.69792e-18" />
+        <origin xyz="-0.0455917 -0.00510811 0.0045" rpy="-1.5708 0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/mcp.stl" />
         </geometry>
@@ -265,7 +265,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.0455917 -0.00510811 0.0045" rpy="-1.5708 2.55953e-16 4.69792e-18" />
+        <origin xyz="-0.0455917 -0.00510811 0.0045" rpy="-1.5708 0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/mcp.stl" />
         </geometry>
@@ -276,11 +276,11 @@
       <inertial>
         <origin xyz="-0.0107299 0.000625775 -0.00445004" rpy="0 0 0" />
         <mass value="0.001" />
-        <inertia ixx="3.60006e-08" ixy="-3.24728e-09" ixz="8.22028e-13" iyy="9.31316e-08" iyz="2.67571e-13" izz="8.50752e-08" />
+        <inertia ixx="3.6001e-08" ixy="-3.247e-09" ixz="1e-12" iyy="9.3132e-08" iyz="0" izz="8.5075e-08" />
       </inertial>
       <!-- Part pip -->
       <visual>
-        <origin xyz="-0.0113 0.00464338 -0.00445" rpy="1.5708 7.56797e-15 -1.4782e-16" />
+        <origin xyz="-0.0113 0.00464338 -0.00445" rpy="1.5708 0 -0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/pip.stl" />
         </geometry>
@@ -289,7 +289,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.0113 0.00464338 -0.00445" rpy="1.5708 7.56797e-15 -1.4782e-16" />
+        <origin xyz="-0.0113 0.00464338 -0.00445" rpy="1.5708 0 -0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/pip.stl" />
         </geometry>
@@ -300,11 +300,11 @@
       <inertial>
         <origin xyz="-0.0130533 -0.00240115 -0.00430199" rpy="0 0 0" />
         <mass value="0.001" />
-        <inertia ixx="3.13691e-08" ixy="-3.25021e-09" ixz="2.80966e-11" iyy="9.25485e-08" iyz="4.94645e-12" izz="8.10791e-08" />
+        <inertia ixx="3.1369e-08" ixy="-3.25e-09" ixz="2.8e-11" iyy="9.2549e-08" iyz="5e-12" izz="8.1079e-08" />
       </inertial>
       <!-- Part finger___joint_3 -->
       <visual>
-        <origin xyz="0.0142 -0.00558667 -0.0043" rpy="-1.5708 1.12913e-17 -1.61586e-17" />
+        <origin xyz="0.0142 -0.00558667 -0.0043" rpy="-1.5708 0 -0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/finger___joint_3.stl" />
         </geometry>
@@ -313,7 +313,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="0.0142 -0.00558667 -0.0043" rpy="-1.5708 1.12913e-17 -1.61586e-17" />
+        <origin xyz="0.0142 -0.00558667 -0.0043" rpy="-1.5708 0 -0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/finger___joint_3.stl" />
         </geometry>
@@ -321,15 +321,15 @@
     </link>
     <!-- Joint from pip to finger___joint_3 -->
     <joint name="${tf_prefix}index_dip" type="revolute">
-      <origin xyz="-0.0255 -0.000943294 -0.00875" rpy="-3.14159 4.38919e-15 -1.67754e-15" />
+      <origin xyz="-0.0255 -0.000943294 -0.00875" rpy="-3.14159 0 -0" />
       <parent link="${tf_prefix}pip" />
       <child link="${tf_prefix}finger___joint_3" />
       <axis xyz="0 0 1" />
-      <limit effort="10" velocity="10" lower="-2.0944" upper="3.55271e-15" />
+      <limit effort="10" velocity="10" lower="-2.0944" upper="0" />
     </joint>
     <!-- Joint from mcp to pip -->
     <joint name="${tf_prefix}index_pip" type="revolute">
-      <origin xyz="-0.0342917 -0.000464732 5e-05" rpy="-3.14159 -7.71142e-17 4.69792e-18" />
+      <origin xyz="-0.0342917 -0.000464732 5e-05" rpy="-3.14159 -0 0" />
       <parent link="${tf_prefix}mcp" />
       <child link="${tf_prefix}pip" />
       <axis xyz="0 0 1" />
@@ -356,11 +356,11 @@
       <inertial>
         <origin xyz="-0.0167147 0.00133536 0.00449998" rpy="0 0 0" />
         <mass value="0.001" />
-        <inertia ixx="4.31278e-08" ixy="2.8728e-10" ixz="-2.10316e-13" iyy="1.28608e-07" iyz="1.55801e-13" izz="1.09528e-07" />
+        <inertia ixx="4.3128e-08" ixy="2.87e-10" ixz="-0" iyy="1.28608e-07" iyz="0" izz="1.09528e-07" />
       </inertial>
       <!-- Part mcp_2 -->
       <visual>
-        <origin xyz="-0.0455917 0.00510811 0.0045" rpy="1.5708 1.91741e-16 2.94203e-19" />
+        <origin xyz="-0.0455917 0.00510811 0.0045" rpy="1.5708 0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/mcp.stl" />
         </geometry>
@@ -369,7 +369,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.0455917 0.00510811 0.0045" rpy="1.5708 1.91741e-16 2.94203e-19" />
+        <origin xyz="-0.0455917 0.00510811 0.0045" rpy="1.5708 0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/mcp.stl" />
         </geometry>
@@ -380,11 +380,11 @@
       <inertial>
         <origin xyz="-0.0107299 -0.000625775 -0.00424996" rpy="0 0 0" />
         <mass value="0.001" />
-        <inertia ixx="3.60006e-08" ixy="3.24728e-09" ixz="-8.22028e-13" iyy="9.31316e-08" iyz="2.67571e-13" izz="8.50752e-08" />
+        <inertia ixx="3.6001e-08" ixy="3.247e-09" ixz="-1e-12" iyy="9.3132e-08" iyz="0" izz="8.5075e-08" />
       </inertial>
       <!-- Part pip_2 -->
       <visual>
-        <origin xyz="-0.0113 -0.00464338 -0.00425" rpy="-1.5708 -3.35531e-16 -1.35653e-17" />
+        <origin xyz="-0.0113 -0.00464338 -0.00425" rpy="-1.5708 -0 -0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/pip.stl" />
         </geometry>
@@ -393,7 +393,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.0113 -0.00464338 -0.00425" rpy="-1.5708 -3.35531e-16 -1.35653e-17" />
+        <origin xyz="-0.0113 -0.00464338 -0.00425" rpy="-1.5708 -0 -0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/pip.stl" />
         </geometry>
@@ -404,11 +404,11 @@
       <inertial>
         <origin xyz="-0.0130533 0.00240115 -0.00429801" rpy="0 0 0" />
         <mass value="0.001" />
-        <inertia ixx="3.13691e-08" ixy="3.25021e-09" ixz="-2.80966e-11" iyy="9.25485e-08" iyz="4.94645e-12" izz="8.10791e-08" />
+        <inertia ixx="3.1369e-08" ixy="3.25e-09" ixz="-2.8e-11" iyy="9.2549e-08" iyz="5e-12" izz="8.1079e-08" />
       </inertial>
       <!-- Part finger___joint_3_2 -->
       <visual>
-        <origin xyz="0.0142 0.00558667 -0.0043" rpy="1.5708 4.56286e-18 1.28809e-17" />
+        <origin xyz="0.0142 0.00558667 -0.0043" rpy="1.5708 0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/finger___joint_3.stl" />
         </geometry>
@@ -417,7 +417,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="0.0142 0.00558667 -0.0043" rpy="1.5708 4.56286e-18 1.28809e-17" />
+        <origin xyz="0.0142 0.00558667 -0.0043" rpy="1.5708 0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/finger___joint_3.stl" />
         </geometry>
@@ -425,7 +425,7 @@
     </link>
     <!-- Joint from pip_2 to finger___joint_3_2 -->
     <joint name="${tf_prefix}mid_dip" type="revolute">
-      <origin xyz="-0.0255 0.000943294 -0.00855" rpy="3.14159 -1.47829e-14 -0.0382316" />
+      <origin xyz="-0.0255 0.000943294 -0.00855" rpy="3.14159 -0 -0.0382316" />
       <parent link="${tf_prefix}pip_2" />
       <child link="${tf_prefix}finger___joint_3_2" />
       <axis xyz="0 0 1" />
@@ -433,7 +433,7 @@
     </joint>
     <!-- Joint from mcp_2 to pip_2 -->
     <joint name="${tf_prefix}mid_pip" type="revolute">
-      <origin xyz="-0.0342917 0.000464732 0.00025" rpy="3.14159 -6.60074e-16 0.147526" />
+      <origin xyz="-0.0342917 0.000464732 0.00025" rpy="3.14159 -0 0.147526" />
       <parent link="${tf_prefix}mcp_2" />
       <child link="${tf_prefix}pip_2" />
       <axis xyz="0 0 1" />
@@ -452,11 +452,11 @@
       <inertial>
         <origin xyz="-0.00174313 -0.00118772 0.00672924" rpy="0 0 0" />
         <mass value="0.003" />
-        <inertia ixx="1.5748e-07" ixy="-2.37558e-08" ixz="1.03937e-08" iyy="1.81283e-07" iyz="6.78909e-09" izz="8.20585e-08" />
+        <inertia ixx="1.5748e-07" ixy="-2.3756e-08" ixz="1.0394e-08" iyy="1.81283e-07" iyz="6.789e-09" izz="8.2058e-08" />
       </inertial>
       <!-- Part cap_3 -->
       <visual>
-        <origin xyz="-0.0197075 -0.0218428 -0.002" rpy="-5.40825e-17 5.84421e-18 8.11818e-17" />
+        <origin xyz="-0.0197075 -0.0218428 -0.002" rpy="-0 0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/cap.stl" />
         </geometry>
@@ -465,7 +465,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.0197075 -0.0218428 -0.002" rpy="-5.40825e-17 5.84421e-18 8.11818e-17" />
+        <origin xyz="-0.0197075 -0.0218428 -0.002" rpy="-0 0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/cap.stl" />
         </geometry>
@@ -488,7 +488,7 @@
       </collision>
       <!-- Part cap_4 -->
       <visual>
-        <origin xyz="-0.0197075 -0.0218428 0.0128" rpy="2.65689e-16 6.03171e-16 6.53892e-16" />
+        <origin xyz="-0.0197075 -0.0218428 0.0128" rpy="0 0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/cap.stl" />
         </geometry>
@@ -497,7 +497,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.0197075 -0.0218428 0.0128" rpy="2.65689e-16 6.03171e-16 6.53892e-16" />
+        <origin xyz="-0.0197075 -0.0218428 0.0128" rpy="0 0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/cap.stl" />
         </geometry>
@@ -508,11 +508,11 @@
       <inertial>
         <origin xyz="0.0166322 0.0021297 0.00429998" rpy="0 0 0" />
         <mass value="0.001" />
-        <inertia ixx="4.66256e-08" ixy="-1.69363e-08" ixz="2.37856e-13" iyy="1.25111e-07" iyz="-1.09232e-13" izz="1.09528e-07" />
+        <inertia ixx="4.6626e-08" ixy="-1.6936e-08" ixz="0" iyy="1.25111e-07" iyz="-0" izz="1.09528e-07" />
       </inertial>
       <!-- Part mcp_3 -->
       <visual>
-        <origin xyz="0.0456679 0.00437464 0.0043" rpy="1.5708 1.01312e-14 -2.93452" />
+        <origin xyz="0.0456679 0.00437464 0.0043" rpy="1.5708 0 -2.93452" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/mcp.stl" />
         </geometry>
@@ -521,7 +521,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="0.0456679 0.00437464 0.0043" rpy="1.5708 1.01312e-14 -2.93452" />
+        <origin xyz="0.0456679 0.00437464 0.0043" rpy="1.5708 0 -2.93452" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/mcp.stl" />
         </geometry>
@@ -532,11 +532,11 @@
       <inertial>
         <origin xyz="-0.0107299 0.000625775 -0.00425004" rpy="0 0 0" />
         <mass value="0.001" />
-        <inertia ixx="3.60006e-08" ixy="-3.24728e-09" ixz="8.22028e-13" iyy="9.31316e-08" iyz="2.67571e-13" izz="8.50752e-08" />
+        <inertia ixx="3.6001e-08" ixy="-3.247e-09" ixz="1e-12" iyy="9.3132e-08" iyz="0" izz="8.5075e-08" />
       </inertial>
       <!-- Part pip_3 -->
       <visual>
-        <origin xyz="-0.0113 0.00464338 -0.00425" rpy="1.5708 -3.31866e-16 -9.38621e-18" />
+        <origin xyz="-0.0113 0.00464338 -0.00425" rpy="1.5708 -0 -0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/pip.stl" />
         </geometry>
@@ -545,7 +545,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.0113 0.00464338 -0.00425" rpy="1.5708 -3.31866e-16 -9.38621e-18" />
+        <origin xyz="-0.0113 0.00464338 -0.00425" rpy="1.5708 -0 -0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/pip.stl" />
         </geometry>
@@ -556,11 +556,11 @@
       <inertial>
         <origin xyz="-0.0130533 0.00240115 -0.00429801" rpy="0 0 0" />
         <mass value="0.001" />
-        <inertia ixx="3.13691e-08" ixy="3.25021e-09" ixz="-2.80966e-11" iyy="9.25485e-08" iyz="4.94645e-12" izz="8.10791e-08" />
+        <inertia ixx="3.1369e-08" ixy="3.25e-09" ixz="-2.8e-11" iyy="9.2549e-08" iyz="5e-12" izz="8.1079e-08" />
       </inertial>
       <!-- Part finger___joint_3_3 -->
       <visual>
-        <origin xyz="0.0142 0.00558667 -0.0043" rpy="1.5708 -8.71578e-20 1.7868e-17" />
+        <origin xyz="0.0142 0.00558667 -0.0043" rpy="1.5708 -0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/finger___joint_3.stl" />
         </geometry>
@@ -569,7 +569,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="0.0142 0.00558667 -0.0043" rpy="1.5708 -8.71578e-20 1.7868e-17" />
+        <origin xyz="0.0142 0.00558667 -0.0043" rpy="1.5708 -0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/finger___joint_3.stl" />
         </geometry>
@@ -577,7 +577,7 @@
     </link>
     <!-- Joint from pip_3 to finger___joint_3_3 -->
     <joint name="${tf_prefix}ring_dip" type="revolute">
-      <origin xyz="-0.0255 -0.000943294 5e-05" rpy="1.83077e-15 -7.09857e-15 1.25725e-15" />
+      <origin xyz="-0.0255 -0.000943294 5e-05" rpy="0 -0 0" />
       <parent link="${tf_prefix}pip_3" />
       <child link="${tf_prefix}finger___joint_3_3" />
       <axis xyz="0 0 1" />
@@ -585,7 +585,7 @@
     </joint>
     <!-- Joint from mcp_3 to pip_3 -->
     <joint name="${tf_prefix}ring_pip" type="revolute">
-      <origin xyz="0.0336546 0.00659554 0.00855" rpy="-3.35484e-15 5.92004e-15 -2.93452" />
+      <origin xyz="0.0336546 0.00659554 0.00855" rpy="-0 0 -2.93452" />
       <parent link="${tf_prefix}mcp_3" />
       <child link="${tf_prefix}pip_3" />
       <axis xyz="0 0 1" />
@@ -612,11 +612,11 @@
       <inertial>
         <origin xyz="0.00174313 0.00118772 0.00672924" rpy="0 0 0" />
         <mass value="0.003" />
-        <inertia ixx="1.5748e-07" ixy="-2.37558e-08" ixz="-1.03937e-08" iyy="1.81283e-07" iyz="-6.78909e-09" izz="8.20585e-08" />
+        <inertia ixx="1.5748e-07" ixy="-2.3756e-08" ixz="-1.0394e-08" iyy="1.81283e-07" iyz="-6.789e-09" izz="8.2058e-08" />
       </inertial>
       <!-- Part cap_5 -->
       <visual>
-        <origin xyz="-0.0197075 -0.0218428 -0.002" rpy="-3.60895e-17 6.65132e-18 6.20919e-19" />
+        <origin xyz="-0.0197075 -0.0218428 -0.002" rpy="-0 0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/cap.stl" />
         </geometry>
@@ -625,14 +625,14 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.0197075 -0.0218428 -0.002" rpy="-3.60895e-17 6.65132e-18 6.20919e-19" />
+        <origin xyz="-0.0197075 -0.0218428 -0.002" rpy="-0 0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/cap.stl" />
         </geometry>
       </collision>
       <!-- Part cap_6 -->
       <visual>
-        <origin xyz="0.0282277 0.00828809 0.0148" rpy="-3.14159 1.84019e-15 -2.01926" />
+        <origin xyz="0.0282277 0.00828809 0.0148" rpy="-3.14159 0 -2.01926" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/cap.stl" />
         </geometry>
@@ -641,7 +641,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="0.0282277 0.00828809 0.0148" rpy="-3.14159 1.84019e-15 -2.01926" />
+        <origin xyz="0.0282277 0.00828809 0.0148" rpy="-3.14159 0 -2.01926" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/cap.stl" />
         </geometry>
@@ -668,11 +668,11 @@
       <inertial>
         <origin xyz="0.0166287 0.00215688 0.00429998" rpy="0 0 0" />
         <mass value="0.001" />
-        <inertia ixx="4.66812e-08" ixy="-1.70644e-08" ixz="2.38034e-13" iyy="1.25055e-07" iyz="-1.08843e-13" izz="1.09528e-07" />
+        <inertia ixx="4.6681e-08" ixy="-1.7064e-08" ixz="0" iyy="1.25055e-07" iyz="-0" izz="1.09528e-07" />
       </inertial>
       <!-- Part mcp_4 -->
       <visual>
-        <origin xyz="0.0456607 0.00444925 0.0043" rpy="1.5708 -2.19855e-15 -2.93288" />
+        <origin xyz="0.0456607 0.00444925 0.0043" rpy="1.5708 -0 -2.93288" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/mcp.stl" />
         </geometry>
@@ -681,7 +681,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="0.0456607 0.00444925 0.0043" rpy="1.5708 -2.19855e-15 -2.93288" />
+        <origin xyz="0.0456607 0.00444925 0.0043" rpy="1.5708 -0 -2.93288" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/mcp.stl" />
         </geometry>
@@ -692,11 +692,11 @@
       <inertial>
         <origin xyz="-0.00922462 0.000836592 -0.00425004" rpy="0 0 0" />
         <mass value="0.001" />
-        <inertia ixx="3.41714e-08" ixy="-3.1164e-09" ixz="5.16547e-13" iyy="8.29513e-08" iyz="2.6448e-13" izz="7.49492e-08" />
+        <inertia ixx="3.4171e-08" ixy="-3.116e-09" ixz="1e-12" iyy="8.2951e-08" iyz="0" izz="7.4949e-08" />
       </inertial>
       <!-- Part pinky___joint_2 -->
       <visual>
-        <origin xyz="-0.0098 0.00464338 -0.00425" rpy="1.5708 -3.39013e-16 3.43808e-17" />
+        <origin xyz="-0.0098 0.00464338 -0.00425" rpy="1.5708 -0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/pinky___joint_2.stl" />
         </geometry>
@@ -705,7 +705,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.0098 0.00464338 -0.00425" rpy="1.5708 -3.39013e-16 3.43808e-17" />
+        <origin xyz="-0.0098 0.00464338 -0.00425" rpy="1.5708 -0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/pinky___joint_2.stl" />
         </geometry>
@@ -716,11 +716,11 @@
       <inertial>
         <origin xyz="-0.0107976 0.00220971 -0.00449766" rpy="0 0 0" />
         <mass value="0.001" />
-        <inertia ixx="3.16156e-08" ixy="2.09117e-09" ixz="-2.71021e-11" iyy="7.46219e-08" iyz="5.39463e-12" izz="6.31453e-08" />
+        <inertia ixx="3.1616e-08" ixy="2.091e-09" ixz="-2.7e-11" iyy="7.4622e-08" iyz="5e-12" izz="6.3145e-08" />
       </inertial>
       <!-- Part pinky___joint_3 -->
       <visual>
-        <origin xyz="0.0127 0.00558667 -0.0045" rpy="1.5708 1.95741e-15 1.86498e-15" />
+        <origin xyz="0.0127 0.00558667 -0.0045" rpy="1.5708 0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/pinky___joint_3.stl" />
         </geometry>
@@ -729,7 +729,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="0.0127 0.00558667 -0.0045" rpy="1.5708 1.95741e-15 1.86498e-15" />
+        <origin xyz="0.0127 0.00558667 -0.0045" rpy="1.5708 0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/pinky___joint_3.stl" />
         </geometry>
@@ -737,7 +737,7 @@
     </link>
     <!-- Joint from pinky___joint_2 to pinky___joint_3 -->
     <joint name="${tf_prefix}pinky_dip" type="revolute">
-      <origin xyz="-0.0225 -0.000943294 0.00025" rpy="-2.06967e-17 -7.70702e-17 6.62524e-18" />
+      <origin xyz="-0.0225 -0.000943294 0.00025" rpy="-0 -0 0" />
       <parent link="${tf_prefix}pinky___joint_2" />
       <child link="${tf_prefix}pinky___joint_3" />
       <axis xyz="0 0 1" />
@@ -745,7 +745,7 @@
     </joint>
     <!-- Joint from mcp_4 to pinky___joint_2 -->
     <joint name="${tf_prefix}pinky_pip" type="revolute">
-      <origin xyz="0.0336438 0.00665052 0.00855" rpy="-1.26691e-14 -3.64679e-15 -2.93288" />
+      <origin xyz="0.0336438 0.00665052 0.00855" rpy="-0 -0 -2.93288" />
       <parent link="${tf_prefix}mcp_4" />
       <child link="${tf_prefix}pinky___joint_2" />
       <axis xyz="0 0 1" />
@@ -772,11 +772,11 @@
       <inertial>
         <origin xyz="0.0147369 -0.00790739 -0.0136942" rpy="0 0 0" />
         <mass value="0.001" />
-        <inertia ixx="9.70023e-08" ixy="3.2375e-08" ixz="2.53796e-10" iyy="1.17778e-07" iyz="-3.00113e-10" izz="1.03425e-07" />
+        <inertia ixx="9.7002e-08" ixy="3.2375e-08" ixz="2.54e-10" iyy="1.17778e-07" iyz="-3e-10" izz="1.03425e-07" />
       </inertial>
       <!-- Part thumb___joint_1 -->
       <visual>
-        <origin xyz="0.00521004 0.00539495 -0.00895" rpy="1.5708 -1.30691e-14 -0.767964" />
+        <origin xyz="0.00521004 0.00539495 -0.00895" rpy="1.5708 -0 -0.767964" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/thumb___joint_1.stl" />
         </geometry>
@@ -785,7 +785,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="0.00521004 0.00539495 -0.00895" rpy="1.5708 -1.30691e-14 -0.767964" />
+        <origin xyz="0.00521004 0.00539495 -0.00895" rpy="1.5708 -0 -0.767964" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/thumb___joint_1.stl" />
         </geometry>
@@ -796,11 +796,11 @@
       <inertial>
         <origin xyz="0.0116639 0.00618854 -0.00441599" rpy="0 0 0" />
         <mass value="0.001" />
-        <inertia ixx="5.44284e-08" ixy="-2.53222e-08" ixz="-4.74379e-09" iyy="7.62438e-08" iyz="6.86348e-09" izz="9.32173e-08" />
+        <inertia ixx="5.4428e-08" ixy="-2.5322e-08" ixz="-4.744e-09" iyy="7.6244e-08" iyz="6.863e-09" izz="9.3217e-08" />
       </inertial>
       <!-- Part thumb___joint_2 -->
       <visual>
-        <origin xyz="0.0126738 0.00394085 -0.00692487" rpy="0.785398 -3.68117e-15 -2.57254" />
+        <origin xyz="0.0126738 0.00394085 -0.00692487" rpy="0.785398 -0 -2.57254" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/thumb___joint_2.stl" />
         </geometry>
@@ -809,7 +809,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="0.0126738 0.00394085 -0.00692487" rpy="0.785398 -3.68117e-15 -2.57254" />
+        <origin xyz="0.0126738 0.00394085 -0.00692487" rpy="0.785398 -0 -2.57254" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/thumb___joint_2.stl" />
         </geometry>
@@ -820,11 +820,11 @@
       <inertial>
         <origin xyz="-0.0123738 0.00242082 -0.00529725" rpy="0 0 0" />
         <mass value="0.001" />
-        <inertia ixx="3.53538e-08" ixy="3.10694e-09" ixz="-2.61885e-11" iyy="8.9079e-08" iyz="3.21538e-12" izz="7.39281e-08" />
+        <inertia ixx="3.5354e-08" ixy="3.107e-09" ixz="-2.6e-11" iyy="8.9079e-08" iyz="3e-12" izz="7.3928e-08" />
       </inertial>
       <!-- Part thumb___joint_3 -->
       <visual>
-        <origin xyz="0.0157 0.00558667 -0.0053" rpy="1.5708 6.13826e-18 4.82288e-18" />
+        <origin xyz="0.0157 0.00558667 -0.0053" rpy="1.5708 0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/thumb___joint_3.stl" />
         </geometry>
@@ -833,7 +833,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="0.0157 0.00558667 -0.0053" rpy="1.5708 6.13826e-18 4.82288e-18" />
+        <origin xyz="0.0157 0.00558667 -0.0053" rpy="1.5708 0 0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/thumb___joint_3.stl" />
         </geometry>
@@ -841,15 +841,15 @@
     </link>
     <!-- Joint from thumb___joint_2 to thumb___joint_3 -->
     <joint name="${tf_prefix}thumb_ip" type="revolute">
-      <origin xyz="0.0257904 0.0125712 0.000773164" rpy="-0.785398 -6.80868e-15 -2.57254" />
+      <origin xyz="0.0257904 0.0125712 0.000773164" rpy="-0.785398 -0 -2.57254" />
       <parent link="${tf_prefix}thumb___joint_2" />
       <child link="${tf_prefix}thumb___joint_3" />
       <axis xyz="0 0 1" />
-      <limit effort="10" velocity="10" lower="-3.55271e-15" upper="1.91986" />
+      <limit effort="10" velocity="10" lower="-0" upper="1.91986" />
     </joint>
     <!-- Joint from thumb___joint_1 to thumb___joint_2 -->
     <joint name="${tf_prefix}thumb_mcp" type="revolute">
-      <origin xyz="0.025006 -0.0232453 -0.0118502" rpy="1.5708 -1.30287e-14 -0.767964" />
+      <origin xyz="0.025006 -0.0232453 -0.0118502" rpy="1.5708 -0 -0.767964" />
       <parent link="${tf_prefix}thumb___joint_1" />
       <child link="${tf_prefix}thumb___joint_2" />
       <axis xyz="0 0 1" />
@@ -857,7 +857,7 @@
     </joint>
     <!-- Joint from backhand to thumb___joint_1 -->
     <joint name="${tf_prefix}thumb_cmc" type="revolute">
-      <origin xyz="-0.0347766 -0.0668031 -0.0408336" rpy="-2.24226 -1.81974e-15 3.12628" />
+      <origin xyz="-0.0347766 -0.0668031 -0.0408336" rpy="-2.24226 -0 3.12628" />
       <parent link="${tf_prefix}backhand" />
       <child link="${tf_prefix}thumb___joint_1" />
       <axis xyz="0 0 1" />
@@ -865,7 +865,7 @@
     </joint>
     <!-- Joint from outer to backhand -->
     <joint name="${tf_prefix}wrist_yaw" type="revolute">
-      <origin xyz="-6.93889e-18 0.025 -0.047" rpy="-1.5708 1.5708 0" />
+      <origin xyz="-0 0.025 -0.047" rpy="-1.5708 1.5708 0" />
       <parent link="${tf_prefix}outer" />
       <child link="${tf_prefix}backhand" />
       <axis xyz="0 0 1" />
@@ -882,13 +882,13 @@
     <!-- Link inner -->
     <link name="${tf_prefix}inner">
       <inertial>
-        <origin xyz="-0.000573884 1.05941e-21 -0.0146915" rpy="0 0 0" />
+        <origin xyz="-0.000573884 0 -0.0146915" rpy="0 0 0" />
         <mass value="0.001" />
-        <inertia ixx="1.89437e-07" ixy="1.92527e-23" ixz="7.04728e-09" iyy="6.98886e-07" iyz="-2.10364e-26" izz="5.49609e-07" />
+        <inertia ixx="1.89437e-07" ixy="0" ixz="7.047e-09" iyy="6.98886e-07" iyz="-0" izz="5.49609e-07" />
       </inertial>
       <!-- Part inner -->
       <visual>
-        <origin xyz="-0.000218978 -0.0454 -0.04325" rpy="-3.38011e-32 8.81656e-32 -2.98503e-18" />
+        <origin xyz="-0.000218978 -0.0454 -0.04325" rpy="-0 0 -0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/inner.stl" />
         </geometry>
@@ -897,7 +897,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.000218978 -0.0454 -0.04325" rpy="-3.38011e-32 8.81656e-32 -2.98503e-18" />
+        <origin xyz="-0.000218978 -0.0454 -0.04325" rpy="-0 0 -0" />
         <geometry>
           <mesh filename="package://ruka_description/meshes/inner.stl" />
         </geometry>
